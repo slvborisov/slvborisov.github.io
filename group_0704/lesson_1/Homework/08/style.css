@@ -1,0 +1,28 @@
+table,
+tr,
+td {
+    border: 0.05px solid lightgrey;
+
+}
+
+.year {
+    font-weight: bold;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+}
+
+.stone {
+    padding-right: 5em;
+}
+
+.headline {
+    text-align: center;
+    border-style: none;
+}
+
+.amount {
+    padding: 0.3em 3em 0.3em 0.3em;
+}
+
+.figure {
+    text-align: center;
+}

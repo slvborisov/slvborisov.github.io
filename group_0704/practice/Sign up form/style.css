@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: initial;
+    width: 416px;
+    height: 478px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.26);
+}
+
+.sign-up {
+    position: absolute;
+    width: 416px;
+    height: 478px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.26);
+}
+
+.image1 {
+    position: absolute;
+    width: 416px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.26);
+}
+
+.class-field {
+    position: auto;
+    width: 328px;
+    background: #FFFFFF;
+    border: 1px solid #1A95FF;
+    box-sizing: border-box;
+    border-radius: 34px;
+    margin-top: 14px;
+}
+
+.sign-up-button {
+    position: absolute;
+    width: 328px;
+    background: #FFFFFF;
+    border: 1px solid #3899EC;
+    box-sizing: border-box;
+    border-radius: 34px;
+}

@@ -1,0 +1,112 @@
+* {}
+
+
+body {
+    background-image: url(./background.jpg);
+    background-size: cover;
+}
+
+.logo {
+    position: absolute;
+    margin: 0 0 0 70em;
+}
+
+.links {
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.title {
+    margin: 2em 0 0 1em;
+    text-align: center;
+    color: orange;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: white solid 3px;
+    width: 560px;
+    height: 315px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.ingredients {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 30em 0 30em;
+}
+
+.pasta-image {
+    margin: 0;
+    float: right;
+}
+
+.recipe {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.pastaimg {
+    border-radius: unset;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    height: 15em;
+}
+
+ul {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block {
+    padding: 2em;
+    align-content: center;
+}
+
+.pasta1 {
+    border-radius: 3em;
+}
+
+.pasta2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    border-radius: 2em;
+}
+
+footer {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.footext {
+    font-family: fantasy;
+    font-size: 1em;
+    font-style: oblique;
+    color: orange;
+}
