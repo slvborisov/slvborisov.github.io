@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #74408C;
+    margin: 0;
+    padding: 0;
+}
+
+.log-in-form {
+    width: 463px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+.form-header {
+    color: #74408C;
+    text-align: center;
+    margin: 0 auto;
+    width: 410px;
+    height: 29px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 34px;
+    padding-top: 40px;
+
+}
+
+.email-field {
+    margin-top: 55px;
+}
+
+.form-field {
+    width: 391px;
+    height: 55px;
+    background: #E5E9ED;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 391px;
+    height: 55px;
+    background: #74408C;
+    border: 1px solid #74408C;
+    border-radius: 5px;
+    color: #FFF;
+    align-items: center;
+    text-align: center;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: #74408C;
+    font-size: 13px;
+}
+
+.forgot-wrapper {
+    margin-left: 88px;
+    margin-right: 88px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.log-in-form div {
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+div.btn-wrapper {
+    margin-top: 55px;
+    margin-bottom: 30px;
+}
+
+.password-field {
+    margin-top: 14px;
+}
