@@ -1,0 +1,70 @@
+* {}
+
+html {}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-nav {
+    background: aqua;
+    text-align: center;
+    height: 90px;
+    border-bottom: 3px solid orange;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.page-link {
+    color: black;
+    display: inline-block;
+    margin 0 15px;
+    line-height: 90px;
+
+}
+
+.page-link.active {
+    color: gray;
+}
+
+.page-link:hover {
+    color: blue;
+}
+
+.page-content {
+    background: greenyellow;
+    height: 200px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.list-item:first-child {
+    background: powderblue;
+}
+
+
+.list-item:nth-child(odd) {
+    background: olivedrab;
+}
+
+.list-item:nth-child(even) {
+    background: papayawhip;
+}
+
+.list-item:last-child {
+    background: royalblue;
+}
