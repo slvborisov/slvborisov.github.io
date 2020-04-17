@@ -60,9 +60,11 @@ a {
   max-width: 960px;
   margin: 0 auto;
 }
+
 .field {
   outline: none;
 }
+
 .field:hover {
   border: 2px solid red;
 }
@@ -80,4 +82,17 @@ a {
   font-size: 25px;
   color: light-green;
   border: 1px solid green;
+}
+
+.page-content {
+  background: red;
+  height: 400px;
+  height: 100vh;
+}
+
+.page-footer {
+  height: 150px;
+  background: green;
+  margin: 0 auto;
+  max-width: 960px;
 }

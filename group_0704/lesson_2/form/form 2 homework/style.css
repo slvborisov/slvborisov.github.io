@@ -57,6 +57,10 @@ body {
     text-align: center;
 }
 
+.btn:focus {
+    background: #B649E8;
+}
+
 .forgot-password {
     text-decoration: none;
     color: #74408C;
@@ -82,4 +86,12 @@ div.btn-wrapper {
 
 .password-field {
     margin-top: 14px;
+}
+
+input.form-field:focus {
+    background: white;
+}
+
+input {
+    padding: 0 0 0 16px;
 }
