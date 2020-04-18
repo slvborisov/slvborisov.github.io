@@ -149,7 +149,10 @@ table {
     width: 343px;
     display: flex;
     padding-bottom: 24px;
-    padding-top: 32.63px;
+}
+
+table {
+    padding-bottom: 32.63px;
 }
 
 .cancel,
@@ -169,10 +172,12 @@ table {
     height: 13px;
     position: absolute;
     left: 13.99%;
+    bottom: 24px;
 }
 
 .save {
     height: 13px;
     position: absolute;
     right: 5.1%;
+    bottom: 24px;
 }
