@@ -53,9 +53,14 @@ th {
     color: #2C3135;
 }
 
+table {
+    border-spacing: 0 15.07px;
+}
+
 .cal-form {
     background: #FFF;
     width: 343px;
+    height: 467px;
     border: 1px solid #DFE4EF;
     border-radius: 4px;
     margin: 0 auto;
@@ -80,10 +85,6 @@ th {
     right: 15.15px;
     top: 20.89px;
 }
-
-.left {}
-
-.right {}
 
 .cal-month {
     text-align: center;
@@ -141,22 +142,20 @@ th {
 .cal-body {
     width: 308px;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 .cal-btn {
     width: 343px;
     display: flex;
-    position: relative;
     padding-bottom: 24px;
     padding-top: 32.63px;
-    position: relative;
-
 }
 
 .cancel,
 .save {
     border: none;
-    background-color: #FFF;
+    background-color: transparent;
     font-family: Monaco;
     font-style: normal;
     font-weight: normal;
