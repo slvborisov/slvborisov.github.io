@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Monaco";
+    src: url("http://db.onlinewebfonts.com/t/0ac87e2140960beafff078e81f279eef.eot");
+    /* IE9*/
+    src: url("http://db.onlinewebfonts.com/t/0ac87e2140960beafff078e81f279eef.eot?#iefix") format("embedded-opentype"),
+        /* IE6-IE8 */
+        url("http://db.onlinewebfonts.com/t/0ac87e2140960beafff078e81f279eef.woff2") format("woff2"),
+        /* chrome firefox */
+        url("http://db.onlinewebfonts.com/t/0ac87e2140960beafff078e81f279eef.woff") format("woff"),
+        /* chrome firefox */
+        url("http://db.onlinewebfonts.com/t/0ac87e2140960beafff078e81f279eef.ttf") format("truetype"),
+        /* chrome firefox opera Safari, Android, iOS 4.2+*/
+        url("http://db.onlinewebfonts.com/t/0ac87e2140960beafff078e81f279eef.svg#Monaco") format("svg");
+    /* iOS 4.1- */
+}
+
+html {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #50E3C2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+th {
+    width: 44px;
+    height: 44px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    color: #2C3135;
+}
+
+.cal-form {
+    background: #FFF;
+    width: 343px;
+    border: 1px solid #DFE4EF;
+    border-radius: 4px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cal-header {
+    display: flex;
+    padding-top: 16px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cal-left {
+    position: absolute;
+    left: 14.38px;
+    top: 20.89px;
+}
+
+.cal-right {
+    position: absolute;
+    right: 15.15px;
+    top: 20.89px;
+}
+
+.left {}
+
+.right {}
+
+.cal-month {
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #2C3135;
+    position: absolute;
+    left: 30.9%;
+    right: 30.97%;
+    top: 3.43%;
+    bottom: 91.86%;
+    padding-top: 16px;
+}
+
+.cal-mnth {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.cal-light {
+    background: #50E3C2;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    color: #FFF;
+}
+
+.cal-day {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    color: #7F8FA4;
+}
+
+.cal-other {
+    background-color: #EDF2F5;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+    text-align: center;
+    color: #BAC2C7;
+}
+
+.cal-body {
+    width: 308px;
+    margin: 0 auto;
+}
+
+.cal-btn {
+    width: 343px;
+    display: flex;
+    position: relative;
+    padding-bottom: 24px;
+    padding-top: 32.63px;
+    position: relative;
+
+}
+
+.cancel,
+.save {
+    border: none;
+    background-color: #FFF;
+    font-family: Monaco;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    text-align: center;
+    color: #2C3135;
+}
+
+.cancel {
+    height: 13px;
+    position: absolute;
+    left: 13.99%;
+}
+
+.save {
+    height: 13px;
+    position: absolute;
+    right: 5.1%;
+}
