@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.page-body {
+    position: relative;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    width: 1200px;
+    display: inline-block;
+    border-bottom: 3px solid #998D8F;
+    border-top: 3px solid orchid;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.page-nav {
+    height: 100px;
+    background: yellow;
+    text-align: center;
+}
+
+.site-link {
+    color: #998D8F;
+    display: inline-block;
+    line-height: 100px;
+    width: 157px;
+
+}
+
+.site-link.active {
+    color: powderblue;
+}
+
+.site-link:hover {
+    color: orange;
+}
+
+.page-social {
+    background: red;
+}
+
+.page-icons {
+    height: 21px;
+    position: absolute;
+    top: 37.5%;
+    right: 0;
+}
+
+.page-icons img {
+    margin: 0 5px;
+}
+
+.page-heading {
+    background: green;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 36px;
+    margin-top: 32px;
+}
+
+.page-logo {
+    color: #000;
+    text-transform: uppercase;
+}
+
+.page-content {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.page-col1 {
+    width: 390px;
+    position: absolute;
+    left: 0;
+}
+
+.page-col2 {
+    width: 390px;
+}
+
+.page-col2-content {
+    background: rgb(247, 233, 228);
+}
+
+.page-col3 {
+    width: 390px;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+.page-footer {
+    max-width: 100%;
+
+}
+
+.page-footer-text {
+    background: rosybrown;
+    display: block;
+}

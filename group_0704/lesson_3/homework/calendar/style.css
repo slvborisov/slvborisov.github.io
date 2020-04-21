@@ -45,10 +45,7 @@ th {
     width: 44px;
     height: 44px;
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
-    line-height: 10px;
     text-align: center;
     color: #2C3135;
 }
@@ -57,10 +54,27 @@ table {
     border-spacing: 0 15.07px;
 }
 
+
+button {
+    border: none;
+    background: transparent;
+    width: 44px;
+    height: 44px;
+}
+
+button:focus {
+    background: #50E3C2;
+    color: #FFF;
+}
+
+.cal-disabled {
+    background-color: #EDF2F5;
+    color: #BAC2C7;
+}
+
 .cal-form {
     background: #FFF;
     width: 343px;
-    height: 467px;
     border: 1px solid #DFE4EF;
     border-radius: 4px;
     margin: 0 auto;
@@ -110,7 +124,6 @@ table {
 .cal-light {
     background: #50E3C2;
     font-family: Open Sans;
-    font-style: normal;
     font-weight: bold;
     font-size: 12px;
     line-height: 10px;
@@ -120,8 +133,6 @@ table {
 
 .cal-day {
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 10px;
     text-align: center;
@@ -131,18 +142,17 @@ table {
 .cal-other {
     background-color: #EDF2F5;
     font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 12px;
     line-height: 10px;
     text-align: center;
     color: #BAC2C7;
+
 }
 
 .cal-body {
-    width: 308px;
-    margin: 0 auto;
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .cal-btn {
@@ -160,8 +170,6 @@ table {
     border: none;
     background-color: transparent;
     font-family: Monaco;
-    font-style: normal;
-    font-weight: normal;
     font-size: 10px;
     line-height: 13px;
     text-align: center;
