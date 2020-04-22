@@ -86,6 +86,8 @@ a {
     font-size: 22px;
     text-align: center;
     width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-bottom: 36px;
     margin-top: 32px;
 }
@@ -155,10 +157,77 @@ a {
     background-position: center;
 }
 
+
+.page-heading-lower {
+    background: green;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: 36px;
+    margin-top: 32px;
+}
+
+.page-banner {
+    display: flex;
+}
+
+.page-banner-left {
+    background: blue;
+    width: 50%;
+    position: relative;
+    height: 436px;
+    background-image: url(./assets/img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-banner-right {
+    background: lightcoral;
+    width: 50%;
+    height: 436px;
+    position: relative;
+    background-image: url(./assets/img4.jpg);
+    margin-left: 20px;
+}
+
+.btn-banner-left {
+    background: #FFF;
+    padding: 15px 50px;
+    border: 2px solid white;
+    color: #292325;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(10%) translateY(10%);
+}
+
+.btn-banner-right {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.btn-banner-left:hover {
+    border: 2px solid black;
+}
+
+
+
 .page-footer {
     background: orangered;
     height: 25px;
+    margin-top: 30px;
     position: relative;
     top: 0;
     bottom: 0;
+}
+
+
+
+
+
+.page-footer-text {
+    padding: 10px 0;
 }
