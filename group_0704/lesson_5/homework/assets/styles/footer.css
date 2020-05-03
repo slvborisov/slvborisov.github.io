@@ -1,0 +1,26 @@
+.page-footer {
+    display: flex;
+    margin: 0 100px 0 100px;
+}
+
+.page-social-wrapper {
+    margin-left: 61px;
+    color: var(--basic-font-color);
+}
+
+.icon-twitter {
+    margin-right: 51px;
+    color: var(--basic-font-color);
+}
+
+.icon-google {
+    color: var(--basic-font-color);
+}
+
+.page-terms {
+    color: var(--basic-font-color);
+    margin-top: 20px;
+    margin-bottom: 51px;
+    font-size: 12px;
+    line-height: 16px;
+}
