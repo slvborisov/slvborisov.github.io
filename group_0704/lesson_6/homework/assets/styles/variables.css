@@ -2,4 +2,10 @@
     --base-text-font: 'Roboto', sans-serif;
     --base-text-color: #FFF;
     --base-bg-color: #003471;
+    --base-font-size: 15px;
+    --base-line-height: 18px;
+    --base-font-weight: bold;
+    --base-usr-font-size: 42px;
+    --media-font-size: 20px;
+    --media-line-height: 23px;
 }

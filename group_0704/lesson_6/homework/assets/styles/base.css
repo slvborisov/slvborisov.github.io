@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 html {
@@ -21,11 +23,56 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1464px;
     height: 100vh;
 }
 
-.page-tiles-area {
-    max-width:
-        display: flex;
+.page-box {
+    font-size: var(--base-font-size);
+    line-height: var(--base-line-height);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: var(--base-font-weight);
+
+}
+
+.page-box:first-child {
+    margin-left: 0;
+}
+
+.username {
+    display: flex;
+    width: -webkit-fill-available;
+    margin-bottom: 15px;
+    font-size: var(--base-usr-font-size);
+    font-weight: var(--base-font-weight);
+}
+
+.page-first-line {
+    display: flex;
+}
+
+.page-second-line {
+    display: flex;
+}
+
+.page-tiles-content {
+    margin: 68px auto 6px 6px;
+}
+
+.page-cool-header {
+    margin: 40px auto 34px 10px;
+}
+
+.page-profile-house {
+    background-image: url(..//images/house.svg);
+    background-position-x: center;
+    background-position-y: 18px;
+    background-repeat: no-repeat;
+}
+
+.page-profile-chair {
+    background-image: url(../images/chair.svg);
+    background-position: center;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
 }

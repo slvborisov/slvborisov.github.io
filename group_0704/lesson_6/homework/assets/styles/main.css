@@ -1,2 +1,86 @@
 @import './base.css';
 @import './variables.css';
+@import './tiles.css';
+
+@media (max-width:574px) {
+    .page-content {
+        align-items: baseline;
+    }
+
+    .page-box {
+        font-size: var(--media-font-size);
+        line-height: var(--media-line-height);
+        margin-left: 13px;
+    }
+
+    .username {
+        width: 100%;
+        margin-top: 14px;
+        margin-bottom: 36px;
+        margin-left: 11px;
+    }
+
+    .page-tiles-area {
+        display: flex;
+        flex-wrap: wrap;
+        flex-basis: 320px;
+    }
+
+    .page-tiles-content {
+        margin: 104px auto 11px 11px;
+    }
+
+    .page-first-line,
+    .page-second-line {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .page-tiles {
+        height: 140px;
+        width: 140px;
+    }
+
+    .page-second-line .page-logo {
+        display: none;
+    }
+
+    .page-second-line .page-other-three {
+        flex-basis: 296px;
+    }
+
+    .page-tiles-nouncy {
+        width: 296px;
+        height: 158px;
+        margin-left: 0px;
+    }
+
+    .page-tiles-about {
+        width: 296px;
+        height: 158px;
+    }
+
+    .page-tiles-photos {
+        flex-basis: 296px;
+        height: 158px;
+        margin-left: 0;
+    }
+
+    .page-profile-chair,
+    .page-profile-house,
+    .page-tiles-pics {
+        background-position-y: center;
+    }
+
+    .page-cool-header {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .page-other-one,
+    .page-other-three {
+        margin-left: 0px;
+    }
+}

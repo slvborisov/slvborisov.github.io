@@ -1,0 +1,68 @@
+.page-tiles-area {
+    display: flex;
+    width: 590px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.page-tiles {
+    display: flex;
+    width: 90px;
+    height: 90px;
+}
+
+.page-tiles-profile {
+    background-color: #AF16B3;
+}
+
+.page-tiles-chair {
+    background-color: #16B3A9;
+}
+
+.page-tiles-photos {
+    display: flex;
+    width: 190px;
+    height: 90px;
+    background-color: #D09D18;
+}
+
+.page-tiles-pics {
+    background-image: url(../images/photos.svg);
+    background-position: center;
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+}
+
+.page-other-one {
+    background-color: #16B34B;
+}
+
+.page-other-two {
+    background-color: #B31616;
+}
+
+.page-other-three {
+    background-color: #16B3A9;
+}
+
+.page-tiles-nouncy {
+    display: flex;
+    width: 200px;
+    height: 90px;
+    margin-left: 0px;
+    background-color: black;
+}
+
+.page-tiles-about {
+    display: flex;
+    width: 190px;
+    height: 90px;
+    background-color: #48D018;
+}
+
+.page-logo {
+    background-image: url(../images/Rectangle\ 14@2x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
